@@ -1,0 +1,56 @@
+﻿Task 1
+cd Desktop
+mkdir myProject
+cd myProject
+touch app.js
+cd Desktop
+mkdir myProject2
+cp app.js ~/Desktop/myProject2
+
+
+Task 2
+touch exercise.txt
+mv  exercise.txt /tmp
+rm /tmp/exercise.txt
+
+
+Task 3
+cd Desktop
+cat > umuzi.txt
+Umuzi staff
+cat > recruits.txt
+Web developers, designers, copywriters, data science, multimedia
+cat > cohort.txt
+cohort 13, cohort 14, cohort 15
+cat umuzi.txt recruits.txt cohort.txt
+Umuzi staff
+Web developers, designers, copywriters, data science, multimedia
+cohort 13, cohort 14, cohort 15
+cat umuzi.txt recruits.txt cohort.txt > summary.txt
+cat >> summary.txt
+Umuzi, our home
+
+Task 4
+locate umuzi
+locate umuzi > search_result.txt
+
+Task 5
+mkdir mydocument 
+cd mydocument
+touch pad.txt
+cd Desktop
+mkdir work
+cd mydocument
+cp pad.txt ~/Desktop/pad_copy.txt
+sudo updatedb 
+cd -
+locate pad_copy.txt
+
+Task 6
+find ./ -name *.pdf
+find ~ * .pdf >> umuzi.txt
+find ~/Desktop/ -mtime -1 -ls
+
+Task 10
+nano my_bio.txt
+mkdir my_files  mv my_bio.txt ~/Desktop/my_files
